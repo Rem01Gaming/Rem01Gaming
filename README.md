@@ -1,3 +1,23 @@
+<script>
+    function calculateAge(birthDate) {
+        const today = new Date();
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const monthDifference = today.getMonth() - birthDate.getMonth();
+        if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+    function displayAge() {
+        const birthDate = new Date(2008, 9, 1); // Months are 0-indexed in JavaScript (October is 9)
+        const age = calculateAge(birthDate);
+        document.getElementById('age').textContent = age;
+    }
+
+    window.onload = displayAge;
+</script>
+
 ### Hi!👋 I'm Rem01Gaming 🍊
 > Yet another ordinary student.
 
@@ -5,7 +25,7 @@
 <a href="https://rem01gaming.github.io">
     <img align="left" width="100" src="./images/mahiro_switch.png">
 </a>
-<p>I'm Rem01Gaming and my hobbies are playing games (random), watching anime, and sometimes tinkering with random stuff like coding (I love doing this).</p>
+<p>I'm Rem01Gaming, a passionate <span id="age"></span>yo who currently focused on Android Development. Other than that, I also interested in Web Development and Open Source stuff. I love to learn new things and always open to new opportunities.<br><br>my hobbies are playing games (random), watching anime, and sometimes tinkering with random stuff like coding (I love doing this).</p>
 <br><br>
 
 ## **📊 Github Stats**
@@ -15,7 +35,7 @@
 </p>
 
 
-## **🧋Cutie Counter**
+## **🧋 Cutie Counter**
 <p align="center">
 	<img src="https://moe-counter.glitch.me/get/@rem01gaming?theme=rule34" alt="Rem01Gaming's cutie counter"/>
 	<br><br>

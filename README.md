@@ -19,14 +19,18 @@
 <p align="center">
 	<img src="https://moe-counter.glitch.me/get/@rem01gaming?theme=rule34" alt="Rem01Gaming's cutie counter"/>
 	<br><br>
-	<code>People who visit my profile :3.<br><br>Hehe~ another cutie has been caught.</code>
+	<code>People who visit my profile :3 Hehe~ another cutie has been caught.</code>
 </p>
 
 ## **📫 Contacts**
-<a href="https://rem01gaming.github.io"><img align="right" width="100" src="./images/mahiro.png" /></a>
+<a href="https://rem01gaming.github.io">
+    <img align="left" width="100" src="./images/mahiro.png" />
+</a>
+
 **Please Contact me on Telegram for a quick response:** [Rem01Gaming](https://t.me/rem01gaming)
 
 **You can also email me here:** 
+
 ```c
 #include <stdio.h>
 
